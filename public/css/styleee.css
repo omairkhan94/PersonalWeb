@@ -1,0 +1,140 @@
+body{
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family : Verdana, sans-serif;
+}
+.pro {
+    text-decoration: underline;
+    display: block;
+}
+.profile {
+    width: 50%;
+    margin: auto;
+}
+.picture-pro {
+    width: 25%;
+    border-radius: 38%;
+}
+
+
+h1{
+    color : #66bfbf;
+    margin : 50px auto 0 auto;
+    font-size: 4.2rem;
+    font-family:'Courier New', Courier, monospace;
+    line-height: ;
+    
+}
+h2{
+    color: #66bfbf;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    color: #11999E;
+}
+.skill-row{
+    width: 50%;
+    margin : 100px auto 100px auto;
+    text-align: left;
+    
+}
+.picture-1{
+    width : 25%;
+    float: right;
+    margin-right: 30px;
+  
+
+}
+.picture-2{
+    width: 25%;
+    float: left;
+    
+    
+}
+.dec1{
+    clear: right;
+}
+.dec2{
+    clear:left;
+}
+
+hr {
+    border: dotted #EAF6F6 6px;
+    width: 4%;
+    margin: 100px auto;
+    border-bottom : none;
+}
+
+
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;   
+}
+.cloud{
+   
+    position: absolute;
+    right: 220px;
+    top: 50px;
+    width: 155px;
+    height: 50px;
+}
+p{
+    /* display: inline-block;  <-- This will uncomment after a some time ... */
+    line-height: 2;
+}
+a {
+    color : #11999E;
+    font-family : Verdana, sans-serif;
+    margin : 20px 10px;
+    text-decoration: none;
+}
+
+a:hover {
+    color : #EAF6F6;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+
+}
+
+
+
+.bottom-cloud{
+    position: absolute;
+    width: 155px;
+    height: 50px;
+    left: 3px;
+    bottom: 300px;
+    margin-left: 225px;
+}
+.middle-container{
+    margin: 100px 0;
+}
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+.Cont-message {
+    width: 40%;
+    margin : 40px auto 60px;
+}
+.btn {
+    background: #11cdd4;
+    border-radius: 8px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.btn:hover {
+    background: #2a756b;
+}
