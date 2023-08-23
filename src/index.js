@@ -1,13 +1,19 @@
 const express  = require("express");
-const path = require("path");
+var path = require('path');
+var os = require("os");
+// var dir =  global.appRoot = path.resolve(__dirname);
+
+// lib/moduleA/component1.js
+// var dir =  require(appRoot + '../public');
 const app = express();
 
-console.log(__dirname);
+// console.log(__dirname);
 
 
+console.log(path);
 
 // console.log(path.join(__dirname, "../public"));
-const staticPath = path.join(__dirname, "../public");
+// const staticPath = path.join(__dirname, "../public");
 
 app.use(express.static(staticPath));
 app.get("/", (req, res)=>{
@@ -19,15 +25,12 @@ app.get("/about", (req, res)=>{
     res.send("Hellow from about us paege of this website");
 });
 app.get("/contact", (req, res)=>{
-    res.write("Hello contact us through the following links");
-    res.write("<a>www.facebook.com");
-    res.write("<a>https:/www.omairkhan.com</a>");
-    res.write("omairyahya55@gmail.com");
-    res.send();
+    res.send("Hello contact us at omairyahya55@gmail.com");
+
 });
 
 app.listen(3000, ()=>{
-    console.log(`server listning on port no 3000`);
+    console.log(`server listen on port no 3000`);
 });
 
 
